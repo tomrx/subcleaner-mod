@@ -12,9 +12,8 @@ Can clean entire libraries in recursive mode and works well with [Bazarr](https:
 directly installed or as a container from the [linuxserver/bazarr](https://hub.docker.com/r/linuxserver/bazarr) image.
 
 # Installing
-Compatible with the LinuxServer Bazarr image. Add the following environment variable to docker-compose.yml:
-
-    image: lscr.io/linuxserver/bazarr:latest
+Compatible with [lscr.io/linuxserver/bazarr](https://docs.linuxserver.io/images/docker-bazarr/).
+Add the following environment variable to docker-compose.yml:
     
     environment:
       DOCKER_MODS: ghcr.io/tomrx/subcleaner-mod:latest
