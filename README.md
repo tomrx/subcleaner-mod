@@ -23,7 +23,7 @@ Unlock the script's full potential by running it after downloading a subtitle fr
 [Bazarr](https://github.com/morpheus65535/bazarr). Enable custom post-processing and use
 the command (note the quotation):
 
-    python3 /opt/subcleaner/subcleaner.py "{{subtitles}}" -s
+    python3 /opt/subcleaner/subcleaner.py --no-log "{{subtitles}}" -s
 
 It should work right out the gate provided the paths and permissions are set up correctly.
 
