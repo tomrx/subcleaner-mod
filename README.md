@@ -1,4 +1,7 @@
 # Subcleaner
+See [main repo](https://github.com/KBlixt/subcleaner) 
+
+
 Subcleaner is a python3 script for removing ads from .srt subtitle files.
 The script is more sophisticated than a simple search and delete per line
 and uses different regex profiles for different languages.
@@ -9,8 +12,10 @@ Can clean entire libraries in recursive mode and works well with [Bazarr](https:
 directly installed or as a container from the [linuxserver/bazarr](https://hub.docker.com/r/linuxserver/bazarr) image.
 
 # Installing
-Add the following environment variable to docker-compose.yml:
+Compatible with the LinuxServer Bazarr image. Add the following environment variable to docker-compose.yml:
 
+    image: lscr.io/linuxserver/bazarr:latest
+    
     environment:
       DOCKER_MODS: ghcr.io/tomrx/subcleaner-mod:latest
       
